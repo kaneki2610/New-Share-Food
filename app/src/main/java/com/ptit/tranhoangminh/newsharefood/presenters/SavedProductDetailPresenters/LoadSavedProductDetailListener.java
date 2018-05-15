@@ -1,4 +1,4 @@
-package com.ptit.tranhoangminh.newsharefood.presenters.savedProductDetailPresenters;
+package com.ptit.tranhoangminh.newsharefood.presenters.SavedProductDetailPresenters;
 
 import com.ptit.tranhoangminh.newsharefood.models.ProductDetail;
 

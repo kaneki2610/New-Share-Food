@@ -1,4 +1,4 @@
-package com.ptit.tranhoangminh.newsharefood.presenters.savedProductPresenters;
+package com.ptit.tranhoangminh.newsharefood.presenters.SavedProductPresenters;
 
 import android.content.Context;
 

@@ -22,6 +22,6 @@ public class SaveCommentStorePresenterLogic implements saveCommentImp {
         };
         commentModel.AddComment(getNotificationInterface, key_store, commentModel, link_image);
 
-        
+
     }
 }

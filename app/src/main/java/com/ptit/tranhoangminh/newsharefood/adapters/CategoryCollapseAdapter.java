@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import com.ptit.tranhoangminh.newsharefood.R;
 import com.ptit.tranhoangminh.newsharefood.models.Category;
-import com.ptit.tranhoangminh.newsharefood.views.AddEditProductViews.activities.AddEditProductView;
+
 
 import org.xmlpull.v1.XmlPullParser;
 
@@ -23,10 +23,10 @@ import java.util.List;
 public class CategoryCollapseAdapter {
     TableLayout tableLayout;
     Context context;
-    AddEditProductView listener;
+    com.ptit.tranhoangminh.newsharefood.views.addEditProductViews.activities.AddEditProductView listener;
 
 
-    public CategoryCollapseAdapter(TableLayout tableLayout, Context context, AddEditProductView listener) {
+    public CategoryCollapseAdapter(TableLayout tableLayout, Context context, com.ptit.tranhoangminh.newsharefood.views.addEditProductViews.activities.AddEditProductView listener) {
         this.tableLayout = tableLayout;
         this.context = context;
         this.listener = listener;

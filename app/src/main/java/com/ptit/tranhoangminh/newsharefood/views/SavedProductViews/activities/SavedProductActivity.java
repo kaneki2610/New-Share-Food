@@ -1,4 +1,4 @@
-package com.ptit.tranhoangminh.newsharefood.views.savedProductViews.activities;
+package com.ptit.tranhoangminh.newsharefood.views.SavedProductViews.activities;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -19,13 +19,13 @@ import android.widget.Toast;
 import com.ptit.tranhoangminh.newsharefood.R;
 import com.ptit.tranhoangminh.newsharefood.adapters.savedProductAdapter;
 import com.ptit.tranhoangminh.newsharefood.models.ProductSQLite;
-import com.ptit.tranhoangminh.newsharefood.presenters.savedProductPresenters.SavedProductPresenter;
+import com.ptit.tranhoangminh.newsharefood.presenters.SavedProductPresenters.SavedProductPresenter;
 import com.ptit.tranhoangminh.newsharefood.views.savedProductDetailViews.activities.SavedProductDetailActivity;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SavedProductActivity extends AppCompatActivity implements SavedProductView {
+public class SavedProductActivity extends AppCompatActivity implements com.ptit.tranhoangminh.newsharefood.views.savedProductViews.activities.SavedProductView {
     private List<ProductSQLite> productArrayList;
     private savedProductAdapter myAdapter;
     private GridView gridView;
