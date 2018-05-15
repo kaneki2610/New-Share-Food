@@ -1,5 +1,5 @@
 package com.ptit.tranhoangminh.newsharefood.views.DirectionMap;
-//test github
+
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.location.Location;
